@@ -27,7 +27,7 @@ export default component$(() => {
             <div key={ix}>
               <h3>{viewModel.name}</h3>
               <p>{viewModel.teaser}</p>
-              <Link href={`/${viewModel.url}`}>View</Link>
+              <a href={`/posts/${viewModel.url}`}>View</a>
             </div>
           ))}
         </>
